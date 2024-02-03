@@ -1,0 +1,152 @@
+body {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto; 
+    width: 80%; 
+    text-align: center;
+    background-color: #586d54;
+}
+
+header {
+    display: flex;
+    background-color: #799773;
+    padding: 10px;
+    text-align: center;
+}
+
+div h1 {
+    margin: 0 auto;
+}
+
+header div {
+    display: inline-block;
+    align-items: center;
+}
+header div a{
+    display: block;
+    text-decoration: none;
+    color: #000; 
+}
+
+nav ul {
+    background-color: #284623;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+.container {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .container div {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#edit {
+    float: right;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 300;
+    background-color: #074437;
+    border: #04362b 2px solid;
+}
+#edit:hover {
+    color: #02ffc8;
+}
+#date {
+    color: #000000;
+}
+
+p {
+    text-align: left;
+}
+
+.content {
+    background-color: #71946b;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    position: relative;
+    display: block;
+    background-color: #213a1d;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.content p {
+    color: #000000;
+    line-height: 1.6;
+}
+
+.content a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto 50px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 250px;
+}
+
+button {
+    padding: 10px;
+    background-color: #284623;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#update {
+    background-color: #2ecc71;
+}
+
+#delete {
+    background-color: #e74c3c;
+}
